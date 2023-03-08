@@ -14,9 +14,27 @@ html {
 
 .container {
     max-width: 1000px;
-    margin-inline: auto;
-    padding-inline: 1rem;
+    margin: auto;
 }
 
 /* START HEADER */
+
+header {
+    background-color: #FF6900;
+    height: 5em;
+}
+
+.nav-top .logo {
+    width: 200px;
+}
+
+.nav-top .nav-left {
+    display: inline-block;
+    margin: left;
+}
+
+.nav-top .nav-right {
+    display: inline-block;
+    margin: right;
+}
 
