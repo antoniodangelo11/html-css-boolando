@@ -134,6 +134,11 @@ header {
     top: 10px;
 }
 
+.fb-hover:hover {
+    cursor: pointer;
+    color: rgb(255, 0, 0);
+}
+
 p {
     padding-top: 2px;
     padding-bottom: 1px;
