@@ -12,11 +12,6 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container {
-    max-width: 1000px;
-    margin: auto;
-}
-
 /* START HEADER */
 
 header {
@@ -24,17 +19,33 @@ header {
     height: 5em;
 }
 
-.nav-top .logo {
-    width: 200px;
+.navbar-top {
+    padding-top: 1em;
+    max-width: 100%;
 }
 
-.nav-top .nav-left {
-    display: inline-block;
-    margin: left;
+.container {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: auto;
 }
 
-.nav-top .nav-right {
-    display: inline-block;
-    margin: right;
+.navbar-top .logo {
+    width: 20%;
+}
+
+.navbar-top .nav-left > a {
+    padding-right: 0.2em;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.navbar-top .nav-right > a,i {
+    padding-right: 0.2em;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }
 
