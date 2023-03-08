@@ -13,7 +13,7 @@ html {
 }
 
 body {
-    margin: 4.5em;
+    margin-top: 4.5em;
 }
 
 .container {
@@ -33,7 +33,7 @@ header {
     right: 0;
 }
 
-nav {
+.navbar-top-header {
     margin: auto;
     height: 100%;
     padding-top: 1em;
@@ -74,9 +74,11 @@ nav {
     margin: auto;
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 3em;
 }
 
 .box-article {
+    min-width: 350px;
     position: relative;
     margin-inline: .5em;
     margin-top: 2.5em;
@@ -149,4 +151,11 @@ h4 {
 
 .cut-price {
     text-decoration: line-through;
+}
+
+/* START FOOTER */
+
+footer {
+    height: 4.5em;
+    background-color: #1A1A1A;
 }
