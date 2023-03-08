@@ -12,6 +12,11 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
 /* START HEADER */
 
 header {
@@ -19,16 +24,14 @@ header {
     height: 4.5em;
 }
 
-.navbar-top {
+nav {
     height: 100%;
     padding-top: 1em;
     max-width: 100%;
     box-shadow: 0 0 5px 1px rgb(0, 0, 0);
 }
 
-.container {
-    max-width: 1000px;
-    margin: auto;
+.navbar-top.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -55,4 +58,36 @@ header {
 
 /* START MAIN */
 
+.box-article {
+    padding-top: 4.5em;
+}
 
+.art-img {
+    background-size: cover;
+    width: 500px;
+    height: 600px;
+}
+
+.male-a {
+    background-image: url(../img/1.webp);
+}
+
+.female-a {
+    background-image: url(../img/2.webp);
+}
+
+.female-b {
+    background-image: url(../img/3.webp);
+}
+
+.male-b {
+    background-image: url(../img/4.webp);
+}
+
+.female-c {
+    background-image: url(../img/5.webp);
+}
+
+.female-d {
+    background-image: url(../img/6.webp);
+}
