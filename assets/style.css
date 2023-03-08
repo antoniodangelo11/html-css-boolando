@@ -58,12 +58,19 @@ nav {
 
 /* START MAIN */
 
-.box-article {
+.box-container {
+    max-width: 1000px;
+    margin: auto;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.article {
+.box-article {
+    max-width: 100%;
+    min-height: 100px;
+}
+
+.bkg-article {
     display: flex;
     background-size: cover;
     width: 100%;
