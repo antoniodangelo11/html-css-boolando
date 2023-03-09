@@ -76,6 +76,7 @@ header {
 }
 
 .box-article {
+    max-height: 100%;
     margin-inline: 2em;
     margin-bottom: 4em;
     display: flex;
@@ -83,6 +84,18 @@ header {
     position: relative;
     width: calc(100% / 3 - 4em);
 }
+
+/* .art-img {
+    max-height: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
+
+/* .hover:hover {
+    opacity: 0;
+} */
 
 .discount-red {
     background-color: rgb(255, 0, 0);
