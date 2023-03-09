@@ -18,7 +18,8 @@ body {
 
 .container {
     max-width: 1200px;
-    margin: auto;
+    margin-inline: auto;
+    padding: 1rem;
 }
 
 /* START HEADER */
@@ -34,10 +35,8 @@ header {
 }
 
 .navbar-top-header {
-    margin: auto;
     height: 100%;
-    padding-top: 1em;
-    max-width: 100%;
+    white-space: nowrap;
     box-shadow: 0 0 5px 1px rgb(0, 0, 0);
 }
 
@@ -45,10 +44,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-inline: auto;
 }
 
-.navbar-top .logo {
+.logo {
     width: 15%;
 }
 
@@ -68,66 +66,75 @@ header {
 
 /* START MAIN */
 
-.box {
-    padding-top: 4em;
+main {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+main .container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
 }
 
 .box-article {
-    max-height: 100%;
-    margin-inline: 2em;
-    margin-bottom: 4em;
-    display: flex;
-    flex-direction: column;
     position: relative;
-    width: calc(100% / 3 - 4em);
+    padding: 1rem .5rem;
+    flex: 0 0 calc(100% / 3);
 }
 
-/* .art-img {
-    max-height: 100%;
-    max-width: 100%;
+.box-article .img-container {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1 / 1.4;
+}
+
+.box-article img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* .box-article .img-back {
     position: absolute;
     top: 0;
     left: 0;
-} */
-
-/* .hover:hover {
     opacity: 0;
 } */
 
 .discount-red {
+    display: inline-block;
     background-color: rgb(255, 0, 0);
     color: rgb(255, 255, 255);
     font-size: 0.8em;
     font-weight: 700;
     padding: 5px 10px;
     position: absolute;
-    left: 0;
-    bottom: 100px;
+    left: 0%;
+    bottom: 5%;
 }
 
 .discount-green {
+    display: inline-block;
     background-color: #008000;
     color: rgb(255, 255, 255);
     font-size: 0.8em;
     font-weight: 700;
     padding: 5px 10px;
     position: absolute;
-    left: 55px;
-    bottom: 100px;
+    left: 15%;
+    bottom: 5%;
 }
 
-.discount-green-1 {
+.green-1 {
+    display: inline-block;
     background-color: #008000;
     color: rgb(255, 255, 255);
     font-size: 0.8em;
     font-weight: 700;
     padding: 5px 10px;
     position: absolute;
-    left: 0;
-    bottom: 100px;
+    left: 0%;
+    bottom: 5%;
 }
 
 .fb-icon {
