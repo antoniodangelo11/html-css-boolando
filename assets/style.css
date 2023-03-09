@@ -77,9 +77,12 @@ main .container {
 }
 
 .box-article {
-    position: relative;
     padding: 1rem .5rem;
     flex: 0 0 calc(100% / 3);
+}
+
+.box-article:hover {
+    cursor: pointer;
 }
 
 .box-article .img-container {
@@ -89,17 +92,25 @@ main .container {
 }
 
 .box-article img {
+    display: block;
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
-/* .box-article .img-back {
+/*INIZIO EFFETTO*/
+
+.box-article .img-front {
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.box-article .img-front:hover {
     opacity: 0;
-} */
+}
+
+/*FINE EFFETTO*/
 
 .discount-red {
     display: inline-block;
